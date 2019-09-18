@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.lzc.mapper.CustomerMapper">
+    <select id="queryCustomerList" resultMap="map">
+        select * from customer;
+    </select>
+    <resultMap id="map" type="customer">
+        <id column="cid" property="id"></id>
+    </resultMap>
+</mapper>

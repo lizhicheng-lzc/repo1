@@ -1,0 +1,17 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "cn.lzc.controller.TestController",
+      "name": "person",
+      "type": "cn.lzc.controller.TestController"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "cn.lzc.controller.TestController",
+      "name": "person.name",
+      "type": "java.lang.String"
+    }
+  ]
+}
